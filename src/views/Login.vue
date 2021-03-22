@@ -7,11 +7,11 @@
           {{ errorMessage }}
         </div>
         <div class="input-box">
-          <input type="text" v-model="username" />
+          <input type="text" v-model="username" required />
           <label>Username</label>
         </div>
         <div class="input-box">
-          <input type="password"  v-model="password" />
+          <input type="password"  v-model="password" required />
           <label>Password</label>
         </div>
         <div class="button">
