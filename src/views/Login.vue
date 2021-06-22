@@ -28,8 +28,8 @@ export default {
   data() {
     return {
       errorMessage: null,
-      username: "",
-      password: ""
+      username: "admin",
+      password: "12345"
     };
   },
   methods: {
